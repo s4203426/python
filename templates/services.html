@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Papaya Leaf Services</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <style>
+    .services-hero {
+      background: linear-gradient(180deg, rgba(34,34,34,0.85), rgba(34,34,34,0.5)), url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80') no-repeat center/cover;
+      color: #fff;
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+    .services-hero h1 {
+      margin: 0 0 1rem;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      letter-spacing: 0.05em;
+    }
+    .services-hero p {
+      max-width: 780px;
+      margin: 0 auto;
+      font-size: 1.05rem;
+      line-height: 1.8;
+    }
+    .service-cards {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      margin: 2rem 0;
+    }
+    .service-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.08);
+      padding: 1.75rem;
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 24px 60px rgba(0,0,0,0.12);
+    }
+    .service-card h2 {
+      margin-top: 0;
+      color: #1a5a2a;
+    }
+    .service-card p {
+      margin: 0.85rem 0 0;
+      color: #555;
+      line-height: 1.7;
+    }
+    .highlight {
+      color: #1a5a2a;
+      font-weight: 700;
+    }
+    .order-section {
+      background: #fff;
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 2rem 0;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.05);
+    }
+    .order-section h2 {
+      margin-top: 0;
+    }
+    .order-section ul {
+      padding-left: 1.25rem;
+      color: #444;
+      line-height: 1.75;
+    }
+    .order-section li {
+      margin-bottom: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/services">Services</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="services-hero">
+      <h1>Fresh Papaya Leaf Supply</h1>
+      <p>We provide premium papaya leaves for health care, herbal preparation, and culinary use. Our leaves are harvested from natural gardens and delivered quickly within the local area.</p>
+    </section>
+
+    <section class="service-cards">
+      <article class="service-card">
+        <h2>Standard Pack</h2>
+        <p>Ideal for personal and family use. Each leaf is carefully selected, fresh, and free from chemical sprays. Clean packaging ensures consistent quality.</p>
+      </article>
+      <article class="service-card">
+        <h2>Business Pack</h2>
+        <p>Designed for retailers, restaurants, and herbal producers. Support is available for advance orders and scheduled deliveries in the city.</p>
+      </article>
+      <article class="service-card">
+        <h2>Wellness Pack</h2>
+        <p>Specially crafted for those using papaya leaves in natural wellness routines. Expert advice helps you store and use leaves optimally.</p>
+      </article>
+    </section>
+
+    <section class="order-section">
+      <h2>Why choose our papaya leaves</h2>
+      <ul>
+        <li><span class="highlight">Daily fresh harvest</span> – Collected each day to preserve moisture and aroma.</li>
+        <li><span class="highlight">Transparent origins</span> – Sourced from clean, hand-tended gardens.</li>
+        <li><span class="highlight">Convenient delivery</span> – Local same-day delivery available.</li>
+        <li><span class="highlight">Professional support</span> – Guidance on proper use and storage.</li>
+      </ul>
+      <p>If you want to place an order or need help selecting the right pack, please visit our <a href="/contact">Contact</a> page or call us directly for fast service.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Fresh Papaya Leaf | Quality and trust</p>
+  </footer>
+</body>
+</html>
